@@ -1,0 +1,57 @@
+@media screen and (min-width: 425px) {
+    body {
+        background-color: aliceblue;
+    }
+    #div1::after {
+        content: "Mobile 425px -> 768px";
+        border: 1px solid black;
+        padding: 7px;
+        background-color: white;
+    }
+    #div2::after {
+        content: url("https://www.crushpixel.com/static14/preview2/stock-photo-green-symbols-of-matrix-binary-code-on-dark-digital-seamless-pattern-1810051.jpg");
+        border: 20px grey solid;
+    }
+}
+@media screen and (min-width: 768px) {
+    body {
+        background-color: aliceblue;
+    }
+    #div1::after {
+        content: "Tablet 768px -> 1024px";
+        border: 1px solid black;
+        padding: 7px;
+        border-radius: 5px;
+        background-color: white;
+    }
+    #div2::after {
+        content: url("https://pureai.com/-/media/ECG/PureAI/Images/IntroImages2018/blurredoutcode2.jpg");
+        border: 20px grey solid;
+    }
+}
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: aqua;
+    }
+    #div1::after {
+        content: "Web 1024px -->";
+        border: 1px solid black;
+        padding: 7px;
+        border-radius: 10px;
+        background-color: white;
+    }
+    #div2::after {
+        content: url("https://cdn.wallpapersafari.com/40/42/6DN7Ea.jpg");
+        border: 20px grey solid;
+    }
+}
+#div1 {
+    margin: 240px auto 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+#div2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
