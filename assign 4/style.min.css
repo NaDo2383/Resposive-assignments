@@ -130,4 +130,10 @@ footer a {
     .row article {
        width: 98vw; 
     }
+    header ul li.bars {
+        display: flex;
+    }
+    header ul li {
+        display: none;
+    }
 }
