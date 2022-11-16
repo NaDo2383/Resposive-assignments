@@ -1,42 +1,94 @@
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 576px) {
     body {
-        background-color: aliceblue;
+        background-color: azure;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
     }
     body::after {
-        content: "For Mobile";
+        content: "xs ( extra small ) < 576px";
     }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 576px) {
     body {
         background-color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
     }
     body::after {
-        content: "For Tablets";
+        content: "s  (small) => 576px";
     }
 }
 @media screen and (min-width: 768px) {
     body {
-        background-color: aqua;
+        background-color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
     }
     body::after {
-        content: "For Small screen laptop";
+        content: "md (medium) => 768px";
+    }
+}
+@media screen and (min-width: 992px) {
+    body {
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    body::after {
+        content: "lg (large) => 992px";
     }
 }
     
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
     body {
         background-color: bisque;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
     }
     body::after {
-        content: "For Desktop, large screen";
+        content: "xl (extra large) => 1200px";
     }
 } 
    
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
     body {
         background-color: blueviolet;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
     }
     body::after {
-        content: "For Extra large";
+        content: "xl (extra large) => 1200px";
     }
 }
+@media screen and (min-width: 1400px) {
+    body {
+        background-color: brown;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    body::after {
+        content: "xxl (extra extra large) => 1400px";
+    }
+}
+
